@@ -13,4 +13,38 @@ public class AirMineral {
                 +berat+" gram"+"\n"+"Harga/Dus \t         : "+harga);
         System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
     }
+
+    public String getMerk() {
+        return merk;
+    }
+
+    public void setMerk(String merk) {
+        this.merk = merk;
+    }
+
+    public String getJenis() {
+        return jenis;
+    }
+
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }
+
+    public double getBerat() {
+        return berat;
+    }
+
+    public void setBerat(double berat) {
+        this.berat = berat;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+    
+    
 }
