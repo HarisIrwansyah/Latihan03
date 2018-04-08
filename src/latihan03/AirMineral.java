@@ -1,10 +1,10 @@
 package latihan03;
 
 public class AirMineral {
-    String merk;
-    String jenis;
-    double berat;
-    double harga;
+    private String merk;
+    private String jenis;
+    private double berat;
+    private double harga;
     
     void cetakinfo(){
         System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
