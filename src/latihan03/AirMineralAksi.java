@@ -18,5 +18,17 @@ package latihan03;
              System.out.println(am.getBerat());
              System.out.print("Harganya        \t : ");
              System.out.println(am.getHarga());
+             
+             
+             AirMinumKemasan amk = new AirMinumKemasan();
+             amk.setMerk("AURA");
+             amk.setJenis("Botol");
+             amk.setBerat(4);
+             amk.setHarga(28000);
+             amk.setJenisAirMinum("Kemasan");
+             amk.cetakinfo();
+             System.out.println("Jenis \t   : "+amk.getJenisAirMinum());
+             amk.throttle();
+             
     }
 }
