@@ -6,4 +6,13 @@ public class AirMinumKemasan extends AirMineral{
     void throttle(){
       System.out.println("Dari Mata Air Pilihan, Gunung Batuah");
     }
+
+    public String getJenisAirMinum() {
+        return jenisAirMinum;
+    }
+
+    public void setJenisAirMinum(String jenisAirMinum) {
+        this.jenisAirMinum = jenisAirMinum;
+    }
+    
 }
